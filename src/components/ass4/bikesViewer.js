@@ -2,6 +2,8 @@ import React,{ useState, useEffect, useCallback } from 'react'
 import Header from 'Components/filler/header'
 import BikesItem from 'Components/ass4/bikesItem'
 import {ListGroup, Button, Form} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import { getNetwork } from 'Services/bikeService'
 

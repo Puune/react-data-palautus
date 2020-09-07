@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import Toast from 'Bootstrap/toast'
 import { Button } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Switcher = (props) => {
     const[viewIndex, setViewIndex] = useState(0)

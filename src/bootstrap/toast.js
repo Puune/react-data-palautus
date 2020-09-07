@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { Toast } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const MyToast = ({info}) => {
     const [show, setShow] = useState(false);
