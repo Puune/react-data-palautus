@@ -1,0 +1,7 @@
+{"tyontekijat": [
+     {"address": "Suomentie 1", "homenumber": 6843131545, "mobilenumber": null, "firstName":"Mauno", "lastName":"Ahonen"},
+     {"address": "Ruotsintie 69", "homenumber": null, "mobilenumber": 5435624, "firstName":"Matti", "lastName":"Näsä"},
+     {"address": "Englannintie 666", "homenumber": 124124141, "mobilenumber": 642467727, "firstName":"Raimo", "lastName":"Vormisto"},
+     {"address": "Ranskantie 0", "homenumber": 20002002, "mobilenumber": 64242624, "firstName":"Timo", "lastName":"Silakka"}
+    ]
+}

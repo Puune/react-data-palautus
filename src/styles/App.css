@@ -1,0 +1,29 @@
+.maintheme {
+    background-color: darkslategray;
+    color: darkslategray;
+}
+
+.App {
+    text-align: center;
+    
+}
+
+li {
+    list-style: none;
+}
+
+Header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+html body root {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

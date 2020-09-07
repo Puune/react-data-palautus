@@ -1,0 +1,49 @@
+{
+  "name": "data_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Puune.github.io/data_frontend/website",
+  "browser": {
+    "child_process": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:github": "gh-pages -d dist",
+    "start:dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server && live-server public",
+    "build:prod": "webpack --config webpack.config-prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/runtime": "^7.11.2",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^1.0.1",
+    "html-loader": "^1.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "4.12.21",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "gh-pages": "^3.1.0",
+    "node": "^14.8.0",
+    "react-bootstrap": "^1.3.0"
+  },
+  "engines": {
+    "node": "6.14.8",
+    "npm": "6.14.8"
+  }
+}
