@@ -21,8 +21,8 @@ class App extends Component {
                 <div className='styles' style={divStyle}>
                     <Header style={header} title="Palautusprojekti" subtitle="Panu Lindqvist"/>
                     <Switcher style={subBox}>
-                        <BikesViewer />                      
                         <Example />
+                        <BikesViewer />                      
                     </Switcher>
                 </div>
             </MyContainer>
