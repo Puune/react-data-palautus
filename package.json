@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Puune.github.io/data-excercise-react",
+  "homepage": "https://Puune.github.io/react-data-palautus/",
   "browser": {
     "child_process": false
   },
