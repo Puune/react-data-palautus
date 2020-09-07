@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Puune.github.io/data_frontend/website",
+  "homepage": "https://Puune.github.io/data-excercise-react",
   "browser": {
     "child_process": false
   },
