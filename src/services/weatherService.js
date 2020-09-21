@@ -10,3 +10,11 @@ export const getWeather = () => {
             return response
         });    
 }
+
+export const getIcon = (icon) => {
+    return weatherAPI.get(`http://openweathermap.org/img/wn/${icon}@2x.png`)
+        .then(response => console.log(response))
+        .then(function(response){
+            return response
+        })
+}
