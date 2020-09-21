@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "7dbb4aa9055b42ba1782";
+/******/ 	var hotCurrentHash = "33b19552f006b78dfcf9";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2321,6 +2321,17 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css":
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css ***!
+  \*************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var escape = __webpack_require__(/*! ../../css-loader/lib/url/escape.js */ \"./node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"/* Default icon options */\\n.leaflet-default-icon-icon {\\n\\tbackground-image: url(\" + escape(__webpack_require__(/*! leaflet/dist/images/marker-icon.png */ \"./node_modules/leaflet/dist/images/marker-icon.png\")) + \"), url(\" + escape(__webpack_require__(/*! leaflet/dist/images/marker-icon-2x.png */ \"./node_modules/leaflet/dist/images/marker-icon-2x.png\")) + \"); /* normal[, Retina] */\\n\\tcursor: url(\" + escape(__webpack_require__(/*! leaflet/dist/images/marker-icon.png */ \"./node_modules/leaflet/dist/images/marker-icon.png\")) + \"), url(\" + escape(__webpack_require__(/*! leaflet/dist/images/marker-icon-2x.png */ \"./node_modules/leaflet/dist/images/marker-icon-2x.png\")) + \"), auto; /* normal[, Retina], auto for compliance with cursor syntax */\\n\\twidth: 25px;\\n\\theight: 41px;\\n\\tmargin: -41px -12px; /* margin top and left to reversely position iconAnchor */\\n\\t}\\n.leaflet-default-icon-shadow {\\n\\tbackground-image: url(\" + escape(__webpack_require__(/*! leaflet/dist/images/marker-shadow.png */ \"./node_modules/leaflet/dist/images/marker-shadow.png\")) + \"); /* normal[, Retina] */\\n\\tcursor: url(\" + escape(__webpack_require__(/*! leaflet/dist/images/marker-shadow.png */ \"./node_modules/leaflet/dist/images/marker-shadow.png\")) + \"), auto; /* normal[, Retina], auto */\\n\\twidth: 41px;\\n\\theight: 41px;\\n\\tmargin: -41px -12px; /* margin top and left to reversely position shadowAnchor */\\n\\t}\\n.leaflet-default-icon-popup {\\n\\tmargin: -34px 1px; /* margin top and left to position popupAnchor */\\n\\t}\\n.leaflet-default-icon-tooltip {\\n\\tmargin: -28px 16px; /* margin top and left to position tooltipAnchor, even if direction 'bottom' or 'right' */\\n\\t}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css?./node_modules/css-loader");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/leaflet/dist/leaflet.css":
 /*!*************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/leaflet/dist/leaflet.css ***!
@@ -2744,6 +2755,17 @@ eval("var toString = {}.toString;\n\nmodule.exports = Array.isArray || function 
 
 /***/ }),
 
+/***/ "./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../css-loader!./leaflet-defaulticon-compatibility.webpack.css */ \"./node_modules/css-loader/index.js!./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(true) {\n\tmodule.hot.accept(/*! !../../css-loader!./leaflet-defaulticon-compatibility.webpack.css */ \"./node_modules/css-loader/index.js!./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css\", function() {\n\t\tvar newContent = __webpack_require__(/*! !../../css-loader!./leaflet-defaulticon-compatibility.webpack.css */ \"./node_modules/css-loader/index.js!./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css\");\n\n\t\tif(typeof newContent === 'string') newContent = [[module.i, newContent, '']];\n\n\t\tvar locals = (function(a, b) {\n\t\t\tvar key, idx = 0;\n\n\t\t\tfor(key in a) {\n\t\t\t\tif(!b || a[key] !== b[key]) return false;\n\t\t\t\tidx++;\n\t\t\t}\n\n\t\t\tfor(key in b) idx--;\n\n\t\t\treturn idx === 0;\n\t\t}(content.locals, newContent.locals));\n\n\t\tif(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');\n\n\t\tupdate(newContent);\n\t});\n\n\tmodule.hot.dispose(function() { update(); });\n}\n\n//# sourceURL=webpack:///./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css?");
+
+/***/ }),
+
 /***/ "./node_modules/leaflet/dist/images/layers-2x.png":
 /*!********************************************************!*\
   !*** ./node_modules/leaflet/dist/images/layers-2x.png ***!
@@ -2768,6 +2790,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./node_modules/leaflet/dist/images/marker-icon-2x.png":
+/*!*************************************************************!*\
+  !*** ./node_modules/leaflet/dist/images/marker-icon-2x.png ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/marker-icon-2x_680f69f.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/marker-icon-2x.png?");
+
+/***/ }),
+
 /***/ "./node_modules/leaflet/dist/images/marker-icon.png":
 /*!**********************************************************!*\
   !*** ./node_modules/leaflet/dist/images/marker-icon.png ***!
@@ -2777,6 +2811,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/marker-icon_2b3e1fa.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/marker-icon.png?");
+
+/***/ }),
+
+/***/ "./node_modules/leaflet/dist/images/marker-shadow.png":
+/*!************************************************************!*\
+  !*** ./node_modules/leaflet/dist/images/marker-shadow.png ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/marker-shadow_a0c6cc1.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/marker-shadow.png?");
 
 /***/ }),
 
@@ -5605,7 +5651,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bab
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MapComponent; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_leaflet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-leaflet */ \"./node_modules/react-leaflet/es/index.js\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! Styles/App.css */ \"./src/styles/App.css\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(Styles_App_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var leaflet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! leaflet */ \"./node_modules/leaflet/dist/leaflet-src.js\");\n/* harmony import */ var leaflet__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(leaflet__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! leaflet/dist/leaflet.css */ \"./node_modules/leaflet/dist/leaflet.css\");\n/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_4__);\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n\n\n\n // Re-uses images from ~leaflet package\n\nfunction MapComponent(_ref) {\n  var page = _ref.page;\n\n  var mapMarkers = function mapMarkers(markers) {\n    if (!markers) return null;else {\n      return page.items.slice(page.number * 10, page.number * 10 + 10).map(function (mark) {\n        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Marker\"], {\n          key: mark.id,\n          position: [mark.latitude, mark.longitude]\n        });\n      });\n    }\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Map\"], {\n    center: [60.1709, 24.9395],\n    zoom: 10\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"TileLayer\"], {\n    url: \"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\",\n    attribution: \"\\xA9 <a href=\\\"http://osm.org/copyright\\\">OpenStreetMap</a> contributors\"\n  }), mapMarkers(page));\n}\n\n//# sourceURL=webpack:///./src/components/ass4/mapItem.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MapComponent; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_leaflet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-leaflet */ \"./node_modules/react-leaflet/es/index.js\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! Styles/App.css */ \"./src/styles/App.css\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(Styles_App_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var leaflet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! leaflet */ \"./node_modules/leaflet/dist/leaflet-src.js\");\n/* harmony import */ var leaflet__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(leaflet__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! leaflet/dist/leaflet.css */ \"./node_modules/leaflet/dist/leaflet.css\");\n/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var leaflet_defaulticon_compatibility_dist_leaflet_defaulticon_compatibility_webpack_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css */ \"./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css\");\n/* harmony import */ var leaflet_defaulticon_compatibility_dist_leaflet_defaulticon_compatibility_webpack_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(leaflet_defaulticon_compatibility_dist_leaflet_defaulticon_compatibility_webpack_css__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n // Re-uses images from ~leaflet package\n\nfunction MapComponent(_ref) {\n  var page = _ref.page;\n\n  var mapMarkers = function mapMarkers(markers) {\n    if (!markers) return null;else {\n      return page.items.slice(page.number * 10, page.number * 10 + 10).map(function (mark) {\n        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Marker\"], {\n          key: mark.id,\n          position: [mark.latitude, mark.longitude]\n        });\n      });\n    }\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Map\"], {\n    center: [60.1709, 24.9395],\n    zoom: 10\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"TileLayer\"], {\n    url: \"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\",\n    attribution: \"\\xA9 <a href=\\\"http://osm.org/copyright\\\">OpenStreetMap</a> contributors\"\n  }), mapMarkers(page));\n}\n\n//# sourceURL=webpack:///./src/components/ass4/mapItem.js?");
 
 /***/ }),
 
