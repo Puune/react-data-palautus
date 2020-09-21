@@ -8,6 +8,11 @@
     
 }
 
+.leaflet-container {
+    width: 100%;
+    height: 66vh;
+}
+
 li {
     list-style: none;
 }

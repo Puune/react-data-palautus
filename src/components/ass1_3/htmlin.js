@@ -49,7 +49,7 @@ export default function Example() {
 
 return (
 <div>
-    <Header title={"Tehtävät 1-3"}/>
+    <Header title={"Tehtävät 1"}/>
     <ul>
         {makeList(json.tyontekijat)}
   </ul>
