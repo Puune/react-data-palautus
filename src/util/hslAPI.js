@@ -2,7 +2,7 @@ import axios from 'axios';
 import https from 'https'
 
 const httpsAgent = new https.Agent({
-    rejectUnauthorized: false, // (NOTE: this will disable client verification)
+    rejectUnauthorized: false,
   })
 
 export default axios.create({

@@ -2,6 +2,7 @@ import React,{ useState, useEffect, useCallback } from 'react'
 import Header from 'Components/filler/header'
 import BikesItem from 'Components/ass4/bikesItem'
 import MapComponent from 'Components/ass4/mapItem'
+import Weather from 'Components/ass4/weatherHki'
 import {ListGroup, Button, Form} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -68,13 +69,13 @@ const HslViewer = () => {
 
     return(
         <div>
-            <Header title="Teht 2-3" subtitle="Alepafillari-selain" style={header}/>
+            <Header title="Teht 2-4" subtitle="Alepafillari-selain" style={header}/>
             <SearchForm content={content} page={page} setPage={setPage} />
             <ListGroup key={page}>
                 {present()}
             </ListGroup>
-            <div id="map"> </div>
             <MapComponent page={page}/>
+            <Weather />
             <p>Page: {page.number+1}</p>
             <Button style={button} onClick={() => switchPage(-1)}>previous</Button>
             <Button style={button} onClick={() => switchPage(1)}>next</Button>
