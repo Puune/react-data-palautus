@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "ab39dd837e399835abd9";
+/******/ 	var hotCurrentHash = "5877cf8bd843d45b5af3";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2768,6 +2768,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./node_modules/leaflet/dist/images/marker-icon-2x.png":
+/*!*************************************************************!*\
+  !*** ./node_modules/leaflet/dist/images/marker-icon-2x.png ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/marker-icon-2x_680f69f.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/marker-icon-2x.png?");
+
+/***/ }),
+
 /***/ "./node_modules/leaflet/dist/images/marker-icon.png":
 /*!**********************************************************!*\
   !*** ./node_modules/leaflet/dist/images/marker-icon.png ***!
@@ -2777,6 +2789,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/marker-icon_2b3e1fa.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/marker-icon.png?");
+
+/***/ }),
+
+/***/ "./node_modules/leaflet/dist/images/marker-shadow.png":
+/*!************************************************************!*\
+  !*** ./node_modules/leaflet/dist/images/marker-shadow.png ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/marker-shadow_a0c6cc1.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/marker-shadow.png?");
 
 /***/ }),
 
@@ -5605,7 +5629,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bab
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MapComponent; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_leaflet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-leaflet */ \"./node_modules/react-leaflet/es/index.js\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! Styles/App.css */ \"./src/styles/App.css\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(Styles_App_css__WEBPACK_IMPORTED_MODULE_2__);\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module 'leaflet_css'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module 'leaflet_marker'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module 'leaflet_marker_2x'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module 'leaflet_marker_shadow'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n\n\n\n\n\nfunction MapComponent(_ref) {\n  var page = _ref.page;\n\n  var mapMarkers = function mapMarkers(markers) {\n    if (!markers) return null;else {\n      return page.items.slice(page.number * 10, page.number * 10 + 10).map(function (mark) {\n        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Marker\"], {\n          key: mark.id,\n          position: [mark.latitude, mark.longitude]\n        });\n      });\n    }\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Map\"], {\n    center: [60.1709, 24.9395],\n    zoom: 10\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"TileLayer\"], {\n    url: \"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\",\n    attribution: \"\\xA9 <a href=\\\"http://osm.org/copyright\\\">OpenStreetMap</a> contributors\"\n  }), mapMarkers(page));\n}\n\n//# sourceURL=webpack:///./src/components/ass4/mapItem.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MapComponent; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_leaflet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-leaflet */ \"./node_modules/react-leaflet/es/index.js\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! Styles/App.css */ \"./src/styles/App.css\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(Styles_App_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! leaflet/dist/leaflet.css */ \"./node_modules/leaflet/dist/leaflet.css\");\n/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var leaflet_dist_images_marker_icon_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! leaflet/dist/images/marker-icon.png */ \"./node_modules/leaflet/dist/images/marker-icon.png\");\n/* harmony import */ var leaflet_dist_images_marker_icon_2x_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! leaflet/dist/images/marker-icon-2x.png */ \"./node_modules/leaflet/dist/images/marker-icon-2x.png\");\n/* harmony import */ var leaflet_dist_images_marker_shadow_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! leaflet/dist/images/marker-shadow.png */ \"./node_modules/leaflet/dist/images/marker-shadow.png\");\n\n\n\n\n\n\n\nfunction MapComponent(_ref) {\n  var page = _ref.page;\n\n  var mapMarkers = function mapMarkers(markers) {\n    if (!markers) return null;else {\n      return page.items.slice(page.number * 10, page.number * 10 + 10).map(function (mark) {\n        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Marker\"], {\n          key: mark.id,\n          position: [mark.latitude, mark.longitude]\n        });\n      });\n    }\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Map\"], {\n    center: [60.1709, 24.9395],\n    zoom: 10\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"TileLayer\"], {\n    url: \"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\",\n    attribution: \"\\xA9 <a href=\\\"http://osm.org/copyright\\\">OpenStreetMap</a> contributors\"\n  }), mapMarkers(page));\n}\n\n//# sourceURL=webpack:///./src/components/ass4/mapItem.js?");
 
 /***/ }),
 
