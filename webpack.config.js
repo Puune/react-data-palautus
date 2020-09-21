@@ -5,12 +5,10 @@ module.exports = {
   entry: "./src/index.js",
   mode: "development",
   module: {
-    loaders: [
-      {test: /\.html$/, loader: 'html'}
-    ]
-  },
-  module: {
     rules: [
+      {
+        test: /\.html$/, loader: 'html'
+      },
       {
         test: /\.(js|jsx)$/,
         exclude: /(node_modules|bower_components)/,
@@ -23,17 +21,27 @@ module.exports = {
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"]
-      }
+      },
+      {
+        test: /\.(jpg|png)$/,
+        use: {
+          loader: "url-loader",
+          options: {
+            limit: 25000,
+          },
+        },
+    }
     ],
   },
   resolve: { 
-    extensions: ["*", ".js", ".jsx"],
+    extensions: ["*", ".js", ".jsx", '.json', '.scss', '.css'],
     alias: {
       Components: path.resolve(__dirname, 'src/components/'),
       Styles: path.resolve(__dirname, 'src/styles'),
       Bootstrap: path.resolve(__dirname, 'src/bootstrap/'),
       Services: path.resolve(__dirname, 'src/services/'),
-      Utils: path.resolve(__dirname, 'src/util/')
+      Utils: path.resolve(__dirname, 'src/util/'), 
+      Img: path.resolve(__dirname, 'src/img/'), 
     }
   },
   output: {

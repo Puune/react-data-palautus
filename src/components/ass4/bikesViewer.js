@@ -73,6 +73,7 @@ const HslViewer = () => {
             <ListGroup key={page}>
                 {present()}
             </ListGroup>
+            <div id="map"> </div>
             <MapComponent page={page}/>
             <p>Page: {page.number+1}</p>
             <Button style={button} onClick={() => switchPage(-1)}>previous</Button>
