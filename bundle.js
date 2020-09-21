@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "7c75c55ed7c17bd58a9b";
+/******/ 	var hotCurrentHash = "f1d166b878df3f387639";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2768,18 +2768,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./node_modules/leaflet/dist/images/marker-icon-2x.png":
-/*!*************************************************************!*\
-  !*** ./node_modules/leaflet/dist/images/marker-icon-2x.png ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/marker-icon-2x_680f69f.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/marker-icon-2x.png?");
-
-/***/ }),
-
 /***/ "./node_modules/leaflet/dist/images/marker-icon.png":
 /*!**********************************************************!*\
   !*** ./node_modules/leaflet/dist/images/marker-icon.png ***!
@@ -2789,18 +2777,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/marker-icon_2b3e1fa.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/marker-icon.png?");
-
-/***/ }),
-
-/***/ "./node_modules/leaflet/dist/images/marker-shadow.png":
-/*!************************************************************!*\
-  !*** ./node_modules/leaflet/dist/images/marker-shadow.png ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/marker-shadow_a0c6cc1.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/marker-shadow.png?");
 
 /***/ }),
 
@@ -5629,7 +5605,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bab
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MapComponent; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_leaflet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-leaflet */ \"./node_modules/react-leaflet/es/index.js\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! Styles/App.css */ \"./src/styles/App.css\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(Styles_App_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n__webpack_require__(/*! leaflet/dist/leaflet.css */ \"./node_modules/leaflet/dist/leaflet.css\");\n\n__webpack_require__(/*! leaflet/dist/images/marker-icon.png */ \"./node_modules/leaflet/dist/images/marker-icon.png\");\n\n__webpack_require__(/*! leaflet/dist/images/marker-icon-2x.png */ \"./node_modules/leaflet/dist/images/marker-icon-2x.png\");\n\n__webpack_require__(/*! leaflet/dist/images/marker-shadow.png */ \"./node_modules/leaflet/dist/images/marker-shadow.png\");\n\nfunction MapComponent(_ref) {\n  var page = _ref.page;\n\n  var mapMarkers = function mapMarkers(markers) {\n    if (!markers) return null;else {\n      return page.items.slice(page.number * 10, page.number * 10 + 10).map(function (mark) {\n        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Marker\"], {\n          key: mark.id,\n          position: [mark.latitude, mark.longitude]\n        });\n      });\n    }\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Map\"], {\n    center: [60.1709, 24.9395],\n    zoom: 10\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"TileLayer\"], {\n    url: \"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\",\n    attribution: \"\\xA9 <a href=\\\"http://osm.org/copyright\\\">OpenStreetMap</a> contributors\"\n  }), mapMarkers(page));\n}\n\n//# sourceURL=webpack:///./src/components/ass4/mapItem.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MapComponent; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_leaflet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-leaflet */ \"./node_modules/react-leaflet/es/index.js\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! Styles/App.css */ \"./src/styles/App.css\");\n/* harmony import */ var Styles_App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(Styles_App_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! leaflet/dist/leaflet.css */ \"./node_modules/leaflet/dist/leaflet.css\");\n/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var Img_marker_icon_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! Img/marker-icon.png */ \"./src/img/marker-icon.png\");\n/* harmony import */ var Img_marker_shadow_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! Img/marker-shadow.png */ \"./src/img/marker-shadow.png\");\n\n\n\n\n\n\nfunction MapComponent(_ref) {\n  var page = _ref.page;\n\n  var mapMarkers = function mapMarkers(markers) {\n    if (!markers) return null;else {\n      return page.items.slice(page.number * 10, page.number * 10 + 10).map(function (mark) {\n        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Marker\"], {\n          iconUrl: 'Img/marker-icon.png',\n          shadowUrl: 'Img/marker-shadow.png',\n          key: mark.id,\n          position: [mark.latitude, mark.longitude]\n        });\n      });\n    }\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"Map\"], {\n    center: [60.1709, 24.9395],\n    zoom: 10\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_1__[\"TileLayer\"], {\n    url: \"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\",\n    attribution: \"\\xA9 <a href=\\\"http://osm.org/copyright\\\">OpenStreetMap</a> contributors\"\n  }), mapMarkers(page));\n}\n\n//# sourceURL=webpack:///./src/components/ass4/mapItem.js?");
 
 /***/ }),
 
@@ -5654,6 +5630,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ \"./node_modules/@babel/runtime/helpers/slicedToArray.js\");\n/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var Bootstrap_toast__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! Bootstrap/toast */ \"./src/bootstrap/toast.js\");\n/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ \"./node_modules/react-bootstrap/esm/index.js\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\nvar Switcher = function Switcher(props) {\n  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__[\"useState\"])(0),\n      _useState2 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState, 2),\n      viewIndex = _useState2[0],\n      setViewIndex = _useState2[1];\n\n  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__[\"useState\"])([]),\n      _useState4 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState3, 2),\n      children = _useState4[0],\n      setChildren = _useState4[1];\n\n  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__[\"useState\"])(),\n      _useState6 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState5, 2),\n      toastInfo = _useState6[0],\n      setToastInfo = _useState6[1];\n\n  Object(react__WEBPACK_IMPORTED_MODULE_1__[\"useEffect\"])(function () {\n    setChildren(Array.isArray(props.children) ? props.children : [props.children]);\n  }, [props.children]);\n  Object(react__WEBPACK_IMPORTED_MODULE_1__[\"useEffect\"])(function () {\n    setView(viewIndex);\n  }, [viewIndex]);\n\n  var setView = function setView(ind) {\n    if (children[ind] != null) {\n      return children[ind];\n    } else {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"div\", null);\n    }\n  };\n\n  var toast = function toast(info) {\n    setToastInfo(info);\n  };\n\n  var increment = function increment() {\n    children.length - 1 != viewIndex ? setViewIndex(viewIndex + 1) : toast(\"Already on last element\");\n  };\n\n  var subtract = function subtract() {\n    0 != viewIndex ? setViewIndex(viewIndex - 1) : toast(\"Already on first element\");\n  };\n\n  var getIndex = function getIndex() {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"h4\", null, viewIndex + 1, ' out of ', children.length);\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, getIndex()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Bootstrap_toast__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    info: toastInfo\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__[\"Button\"], {\n    style: props.style.button,\n    onClick: function onClick() {\n      return subtract();\n    }\n  }, \"Previous\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__[\"Button\"], {\n    style: props.style.button,\n    onClick: function onClick() {\n      return increment();\n    }\n  }, \"Next\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"div\", {\n    style: props.style\n  }, children[viewIndex]));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Switcher);\n\n//# sourceURL=webpack:///./src/components/switcher.js?");
+
+/***/ }),
+
+/***/ "./src/img/marker-icon.png":
+/*!*********************************!*\
+  !*** ./src/img/marker-icon.png ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/marker-icon_2b3e1fa.png\");\n\n//# sourceURL=webpack:///./src/img/marker-icon.png?");
+
+/***/ }),
+
+/***/ "./src/img/marker-shadow.png":
+/*!***********************************!*\
+  !*** ./src/img/marker-shadow.png ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/marker-shadow_a0c6cc1.png\");\n\n//# sourceURL=webpack:///./src/img/marker-shadow.png?");
 
 /***/ }),
 
