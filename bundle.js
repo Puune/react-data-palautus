@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "f154837cac8f57f3430f";
+/******/ 	var hotCurrentHash = "5c744a1504ba3552b45e";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2748,11 +2748,10 @@ eval("var toString = {}.toString;\n\nmodule.exports = Array.isArray || function 
 /*!********************************************************!*\
   !*** ./node_modules/leaflet/dist/images/layers-2x.png ***!
   \********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"8f2c4d11474275fbc1614b9098334eae.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/layers-2x.png?");
+eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/layers-2x.png?");
 
 /***/ }),
 
@@ -2760,11 +2759,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /*!*****************************************************!*\
   !*** ./node_modules/leaflet/dist/images/layers.png ***!
   \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"416d91365b44e4b4f4777663e6f009f3.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/layers.png?");
+eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/layers.png?");
 
 /***/ }),
 
@@ -2772,11 +2770,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /*!**********************************************************!*\
   !*** ./node_modules/leaflet/dist/images/marker-icon.png ***!
   \**********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"2b3e1faf89f94a4835397e7a43b4f77d.png\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/marker-icon.png?");
+eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack:///./node_modules/leaflet/dist/images/marker-icon.png?");
 
 /***/ }),
 
